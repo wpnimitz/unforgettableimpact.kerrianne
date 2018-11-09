@@ -1,0 +1,85 @@
+/** Section Ripped Paper **/
+.paper {
+	background: #be0b65;
+	background: -moz-radial-gradient(center, ellipse cover, #be0b65 1%, #a20957 55%, #a20957 67%, #a20957 100%, #be0b65 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, #be0b65 1%,#a20957 55%,#a20957 67%,#a20957 100%,#be0b65 100%);
+	background: radial-gradient(ellipse at center, #be0b65 1%,#a20957 55%,#a20957 67%,#a20957 100%,#be0b65 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#be0b65', endColorstr='#be0b65',GradientType=1 );
+}
+
+.paper:before, .paper:after {
+    content: "";
+    display: block;
+    height: 150px;
+    background-size: 100% 150px !important;
+}
+.paper:before {
+    background: url(https://unforgettableimpact.com/files/ripped-top.png) no-repeat transparent;
+}
+
+.paper:after {
+    background: url(https://unforgettableimpact.com/files/ripped-buttom.png) no-repeat transparent;
+    background-position: bottom;
+    margin-top: -20px;
+}
+
+.paper + .et_pb_section {
+    margin-top: -50px;
+    background-color: transparent;
+}
+
+
+ul.pink {
+    list-style: none;
+}
+
+ul.pink li:before {
+    content: "•";
+    color: #be0b65;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-bottom: 10px;
+}
+
+.black-text .kerrianne-form .legal {
+    color: #000;
+}
+
+
+@media screen and (max-width: 768px) {
+    .paper:before, .paper:after {
+        content: "";
+        display: block;
+        height: 50px;
+        background-size: 100% 50px !important;
+    }
+}
+
+
+
+/** WN SLIDER **/
+.wn-slider .slide {
+    display: none;
+}
+.wn-slider .slide.active {
+    display: block;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+	margin-bottom: 5px !important;
+}
+.wn-navigation {
+    min-height: 200px;
+}
+.gold-back, .gold-next {
+    position: absolute;
+    max-width: 30%;
+    width: 100%;
+}
+.gold-next {
+    right: 0;
+}
+
+.restart-slide {
+    text-align: center;
+}

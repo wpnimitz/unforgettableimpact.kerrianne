@@ -1,0 +1,64 @@
+body.login {
+	background: url(../img/merchant-herobg-video-autoplay.jpg) no-repeat;
+    background-size: cover;
+}
+
+body.login div#login {
+    padding: 8% 20px 0;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+body.login div#login h1 {}
+
+body.login div#login h1 a {
+	background-image: url(images/w-logo-blue.png?ver=20131202);
+    background-image: none,url(https://unforgettableimpact.com/files/LOGO-PNG-1000.jpg);
+    background-size: 200px;
+    height: 100px;
+    width: 280px;
+}
+
+body.login div#login form#loginform {}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {}
+body.login div#login form#loginform input {}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+
+body.login div#login form#loginform p.forgetmenot,
+body.login div#login form#loginform p.submit {
+    display: block !important;
+    float: none !important;
+}
+
+
+body.login div#login form#loginform p.submit input#wp-submit {
+    background: #be0b65;
+    color: #fff;
+    text-shadow: none;
+    width: 100%;
+    margin-top: 10px;
+    border: 0;
+    box-shadow: none;
+    font-size: 20px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+body.login div#login form#loginform p.submit input#wp-submit:hover {
+	background:#3f2366;
+}
+
+body.login div#login p#nav {}
+body.login div#login p#nav a {}
+body.login div#login p#backtoblog {}
+body.login div#login p#backtoblog a {}
+
+

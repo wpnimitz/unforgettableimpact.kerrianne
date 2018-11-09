@@ -1,0 +1,2382 @@
+/*
+ Theme Name:     KickAssImpact
+ Theme URI:      https:////unforgettableimpact.com/
+ Description:    Kickass Impact child theme for Divi by Elegant Themes. Kickass Impact is the foundation for attention-grabbing sites that convert. Includes all core requirements for a child theme.
+ Author:         Nimitz Batioco
+ Author URI:     http://webninjahq.com/
+ Template:       Divi
+ Version:        1.0.4
+*/
+
+@import url("../Divi/style.css");
+
+/* ------------------------- Do not use this space for customization ------------------------- */
+
+
+/*---------- [Load The Fonts] ----------*/
+@font-face {font-family: xtreme; src: url('fonts/XtreemFat_Demo.ttf');}
+@font-face {font-family: xtreme_medium;src: url('fonts/XtreemMedium_Demo.ttf');}
+@font-face {font-family: xtreme_thin;src: url('fonts/XtreemThin_Demo.ttf');}
+@font-face {font-family: Sanford-0103_demo;src: url('fonts/Sanford-0103_demo.ttf');}
+
+.magnet, .xtreme, h2 span {
+     font-family: xtreme !important;
+}
+
+
+#main-footer .container {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+.bottom-nav {
+    padding: 0;
+}
+
+.bottom-nav a {
+    color: #fff !important;
+}
+
+/** 404 PAGE **/
+
+body.error404, .container.ops-page .et_pb_section {
+    background: #be0b66 !important;
+    color: #fff;
+}
+
+.error404 header#main-header {
+    display: none;
+}
+
+.error404 h1 {
+    color: #fff;
+}
+
+
+/** Brand Audit Videos */
+.video-holders {
+    display: flex;
+    justify-content: center;
+}
+
+.video-holders > div {
+    padding: 0 10px;
+}
+
+.video-holders .et_pb_main_blurb_image {
+    margin-bottom: 0;
+}
+
+.video-holders .et_pb_blurb_container {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+@media only screen and (min-width: 768px) {
+	.vertical-center, .vertical-center .et_pb_code_inner {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.et_pb_section {
+		padding: 0px 0 !important;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+/** OLD WEBSITE CSS **/
+
+h1.normal {
+    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif !important;
+    text-transform: initial;
+}
+.magnet {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.et_post_meta_wrapper h1 {
+    font-family: XtreemMedium_Demo,"Shadows Into Light",cursive!important;
+}
+.normal.black {
+color: #222;
+}
+
+.magnet.pink {
+    color: #be1e68;
+}
+
+.page-id-3581 p {
+    line-height: 1.3;
+}
+
+
+p.desc, .text-muted {
+    color: #fff !important;
+}
+
+p.desc {
+    line-height: 1.2em;
+}
+
+
+.et-waypoint { opacity: 1 !important; }
+
+
+
+/* 3 Reason Homepage Signup Section */
+.textwidget.footer-copyright {
+    color: #fff;
+    font-size: 16px;
+}
+
+.legal-footer a {
+    color: #fff;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+#ebook-download.et_pb_section_1.et_pb_section {
+    background-color: #32155d!important;
+    padding-top: 0px;
+    margin-bottom: -90px;
+}
+
+.reasons-btn {
+    background: url(https://unforgettableimpact.com/wp-content/uploads/2017/08/Kickass-impact-yes-give-me-access-button.png);
+    height: 200px;
+    width: 200px;
+    display: block;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.reasons-btn:hover {
+    background: url(https://unforgettableimpact.com/wp-content/uploads/2017/08/Kickass-impact-yes-give-me-access-rollover.png);
+    height: 200px;
+    width: 200px;
+    display: block;
+    background-size: cover;
+}
+
+.application .et_contact_bottom_container {
+    float: initial;
+    margin: -20px auto;
+    text-align: center;
+}
+
+.application button.et_pb_contact_submit.et_pb_button {
+    background: url(https://unforgettableimpact.com/wp-content/uploads/2017/08/diamante-small-button.png) no-repeat center center;
+    color: #fff;
+    text-transform: uppercase;
+    min-width: 200px;
+    border: 0px;
+}
+
+.application-form button {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #be1f67;
+    font-weight: 900;
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+
+
+.three-reasons .p, .three-reasons p:last-of-type {
+    line-height: 1.1em;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+
+.three-reasons .three-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flip-quote img {
+    transform: rotate(180deg);
+}
+
+
+
+
+#emodal-overlay {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.emodal > .emodal-close {
+background: #be0b66!important;;
+    font-size: 30px !important;
+    font-weight: 300;
+    padding: 15px !important;
+    font-family: Tahoma;
+    color: #a41f62 !important;
+}
+
+
+
+#eModal-1 {
+    padding: 0!important;
+    border-radius: 10px !important;
+    background: #be0b66!important;
+    overflow: hidden;
+}
+
+#eModal-1 .one-third, #eModal-1 .two-third {
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px 20px 0;
+}
+
+#eModal-1 .two-third {
+    max-width: 69%;
+    padding: 2% 3%;
+}
+
+#eModal-1 .one-third {
+    max-width: 30%;
+}
+
+.et_bloom .et_bloom_optin_3.et_bloom_optin strong {
+    font-weight: normal !important;
+    font-size: 1.2em !important;
+    line-height: 1.4em !important;
+    padding-top: 20px !important;
+}
+
+
+
+.two-third h1 {
+    font-family: 'Lato', sans-serif !important;
+    font-size: 30px;
+    text-transform: initial;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.two-third p.text-muted {
+    font-size: 14px;
+    font-weight: 300 !important;
+}
+
+
+
+#eModal-1 form {
+    background: url(https://unforgettableimpact.com/wp-content/uploads/2017/11/curve-form.jpg) no-repeat top center #fff;
+    padding: 50px 20px 20px 20px;
+}
+
+#eModal-1 form p {
+    display: none;
+}
+
+
+.application-form {
+    color: #fff;
+}
+
+
+.application-form .infusion-field {
+    padding: 50px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.application-form input, .application-form select, .application-form textarea {
+    width: 100%;
+}
+
+.application-form input[type=radio] {
+    width: auto;
+}
+
+
+span.infusion-option {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.application-form input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #be1e68;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+
+.application-form input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+
+.application-form select {
+    padding: 10px;
+    font-size: 19px;
+}
+
+
+.application-form .infusion-submit {
+    width: 100%;
+}
+
+.application-form input[type="submit"] {
+    padding: 20px 10px;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    border: 0;
+    background: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.application-form .infusion-field input {
+    margin-right: 10px;
+}
+
+
+
+
+.infusion-field input {
+    padding: 12px 10px;
+    border-radius: 2px;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.infusion-field.clearfix {
+    display: inline-block;
+    width: 33%;
+}
+
+.infusion-submit {
+    display: inline-block;
+    width: 32%;
+    position: relative;
+    min-height: 45px;
+}
+
+.infusion-submit input#form-submit {
+    padding: 10px 10px;
+    width: 100%;
+    border: 0;
+    margin-top: -1px!important;
+    background: #32155d!important;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form-muted {
+    font-size: 14px;
+    text-align: center;
+    color: #fff !important;
+}
+
+
+
+.lead-text h2, .lead-text h3 {
+    color: #fff;
+    font-size: 29px !important;
+    text-align: center;
+    font-family: Lato !important;
+    font-weight: 700;
+    text-transform: initial;
+    margin-bottom: 0px !important;
+}
+
+.lead-text h3 {
+    font-size: 20px !important;
+    font-weight: 500;
+}
+
+#eModal-1 form + p:last-child {
+    background: #fff;
+    color: #222 !important;
+}
+
+
+
+.page-id-3087 #main-footer, 
+.page-id-3087 #main-footer, 
+.page-id-3113 #main-footer {
+    display: none;
+}
+
+
+/** KSM LANDING PAGES **/
+ul#menu-scottsdale {
+    text-align: center;
+}
+
+
+
+
+/** LONDON PAGE **/
+.london .join-date h3 {
+    color: #33235d;
+}
+
+.egyptgod .et_parallax_bg {
+    background-position: bottom right;
+}
+
+.mirror-head {
+    width: 100%;
+    background: url(https://unforgettableimpact.com/wp-content/uploads/2017/08/mirror_02.png) no-repeat bottom center;
+    background-size: 100%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    max-width: 950px;
+    padding-bottom: 0!important;
+}
+
+.mirror-body {
+    background: url(https://unforgettableimpact.com/wp-content/uploads/2017/08/mirror_03.png) repeat-y;
+    background-size: contain;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+.mirror-footer {
+    width: 100%;
+    background: url(https://unforgettableimpact.com/wp-content/uploads/2017/08/mirror_04-1.png) no-repeat top center;
+    background-size: 100%;
+    height: 279px;
+    display: block;
+    margin: 0 auto;
+    max-width: 950px;
+    padding-bottom: 0 !important;
+}
+
+
+/** Homepage Testimonial Section **/
+#testimonial-slider:after {
+    content: "";
+    background: url(https://unforgettableimpact.com/wp-content/uploads/2017/11/picture-frame_04.jpg)   no-repeat center bottom;
+    z-index: 2;
+    width: 100% !important;
+    min-height: 300px;
+    min-height: 20% !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-size: 100%;
+}
+
+#testimonial-slider:before {
+    background: url(https://unforgettableimpact.com/wp-content/uploads/2017/11/picture-frame_01.jpg) no-repeat center top;
+    width: 100%;
+    min-height: 300px;
+    min-height: 20% !important;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-size: 100%;
+}
+
+
+#testimonial-slider {
+    background: url(https://unforgettableimpact.com/wp-content/uploads/2017/11/picture-frame_03.jpg) center center;
+    background-size: 100%;
+}
+
+
+
+
+/** Testimonial Page **/
+.first-entry {
+    padding-top: 0 !important;
+}
+
+
+.portfolio-item:not(.content-copy) {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 !important;
+    width: 100%;
+}
+
+
+
+.portfolio-item.et_pb_row {
+    max-width: 100%;
+}
+
+.portfolio-item.et_pb_row .et_pb_module {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.portfolio-item .et_pb_column {
+    position: absolute;
+    bottom: 0;
+}
+
+.portfolio-item.content-copy .et_pb_column { position: relative;}
+
+.portfolio-item > div {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.portfolio-item.cancel {
+    height: 100vh !important;
+}
+
+
+
+/** Brand Audit Videos */
+.video-holders {
+    display: flex;
+    justify-content: center;
+}
+
+.video-holders > div {
+    padding: 0 10px;
+}
+
+.video-holders .et_pb_main_blurb_image {
+    margin-bottom: 0;
+}
+
+.video-holders .et_pb_blurb_container {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#contact-form p {
+    color: #fff;
+}
+
+
+
+.et_bloom_optin_4 .et_bloom_form_footer {
+    text-align: center;
+}
+
+
+.et_bloom_optin_4 input {
+    border: 1px solid #8f8f8f !important;
+    font-weight: 500 !important;
+}
+
+
+.et_bloom_optin_4 .et_bloom_form_text strong {
+    font-family: XtreemMedium_Demo, "Shadows Into Light",cursive!important;
+    text-transform: lowercase;
+    font-size: 1.2em;
+}
+
+.et_bloom_optin_4 .et_bloom_form_header p {
+    color: #fff !important;
+    padding-bottom: 16px;
+    font-size: 22px !important;
+    line-height: 26px;
+}
+
+
+/*** SIDEBAR CUSTOMIZATION ***/
+.widget_text form button {
+    background: #be0b66;
+    border: 0px;
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+
+.widget_text .infusion-submit {
+    display: block;
+    width: 100%;
+}
+
+
+.widget_text form label {
+    display: none;
+}
+
+
+.widget_text .infusion-field input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+
+.widget_text form.infusion-form {
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.widget_text form.infusion-form img {
+    margin-top: -50px;
+}
+
+
+
+
+
+/** New CSS designs **/
+
+.admin-bar .wn-wrapper {
+   min-height: calc(100vh - 32px);
+}
+.wn-wrapper {
+   min-height: 700px;
+   min-height: 100vh;
+}
+
+
+/*SCOTTSDALE PAGE*/
+.et_pb_countdown_timer .title{margin-bottom:0;}
+#scott-menu #nav_menu-2{width:100%;}
+#menu-scottsdale li { display: inline-block; margin-right: 30px; }
+.position-relative{position:relative;}
+.position-absolute{position:absolute;}
+.position-absolute.palm-trees.et_pb_row_fullwidth{z-index:1;top:-50px;background-size:cover;}
+.position-absolute.palm-trees.et_pb_row_fullwidth .et_parallax_bg{background-position:center -200px;}
+.diamonds .et_parallax_bg{background-size:contain;background-position:center 150px;}
+.kerrianne-walking { top: -10%; max-width: 100% !important; width: 100% !important; }
+.rotate-cc{-ms-transform: rotate(-8deg); /* IE 9 */-webkit-transform: rotate(-8deg); /* Chrome, Safari, Opera */ transform: rotate(-8deg);}
+.rotate-c{-ms-transform: rotate(2deg); /* IE 9 */-webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */ transform: rotate(2deg);}
+.paper-effect{-moz-box-shadow:  0 2px 4px 0 #ccc;-webkit-box-shadow: 0 12px 18px 0 #ccc;box-shadow: 0 10px 18px 0 #ccc; border:1px solid #fff;/* Safari 4-5, Chrome 1-9 */  }
+.letter-style .top-fold{background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f0eceb), to(#d2d0d1));  /* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(top, #f0eceb, #d2d0d1); /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #f0eceb, #d2d0d1); /* IE 10 */background: -ms-linear-gradient(top, #f0eceb, #d2d0d1);/* Opera 11.10+ */background: -o-linear-gradient(top, #efebea, #d2d0d1);}
+.letter-style .bottom-fold{background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f0eceb), to(#cecccd));  /* Safari 5.1, Chrome 10+ */ background: -webkit-linear-gradient(top, #f0eceb, #cecccd); /* Firefox 3.6+ */ background: -moz-linear-gradient(top, #f0eceb, #cecccd); /* IE 10 */background: -ms-linear-gradient(top, #f0eceb, #cecccd);/* Opera 11.10+ */background: -o-linear-gradient(top, #efebea, #cecccd);border-top:3px solid #d2d0d1;}
+#paper{top:-300px;}
+.pen{right: -120px;bottom: -100px;}
+.bottom{z-index:1;}
+.top{z-index:2;}
+.bcard-label{background-color:#fff;padding-top:30px; -moz-box-shadow:5px 5px 5px 2px rgba(0,0,0,.2);-webkit-box-shadow:5px 5px 5px 2px rgba(0,0,0,.2);box-shadow:5px 5px 5px 2px rgba(0,0,0,.2);}
+.bcard{ -moz-box-shadow:5px 5px 5px 2px rgba(0,0,0,.2);-webkit-box-shadow:5px 5px 5px 2px rgba(0,0,0,.2);box-shadow:5px 5px 5px 2px rgba(0,0,0,.2);}
+.bcard .profile-image {position:absolute;right:0;right:0;bottom:0;max-width:305px;}
+.bcard-label.et_pb_text h4{background-color:#bb1d68;padding:20px 10px;font-weight:300;display:block;}
+.bcard .et_pb_testimonial_description{display:block;}
+.bcard .et_pb_testimonial_portrait{width:305px!important;height:275px!important;float:none;position:absolute;right:0;bottom:0;margin-right:0;}
+.bcard .et_pb_testimonial_portrait:before{box-shadow:none;}
+.bcard .et_pb_testimonial_description_inner{position:relative;z-index:2;padding:30px 200px 30px 30px;width:auto!important;max-width:100%;}
+.bcard .et_pb_testimonial_author{color:#0a003c;}
+.bcard-right .bcard .et_pb_testimonial_description_inner{padding:0;}
+.bcard-right .bcard .et_pb_testimonial_description_inner p{padding:20px 30px 10px;}
+.bcard-right .bcard .et_pb_testimonial_author,.bcard-right .bcard .et_pb_testimonial_meta{background-color:#bb1d68;color:#fff;padding:10px 30px 0;margin-top:0;}
+.bcard-right .bcard .et_pb_testimonial_meta{padding-top:0!important;}
+
+.jane .et_pb_testimonial_description_inner, .ray .et_pb_testimonial_description_inner { padding-top: 0; }
+.jane p.et_pb_testimonial_meta, .ray p.et_pb_testimonial_meta { padding-top: 0; }
+.jane p:nth-child(3) { max-width: 90%; }
+
+
+.text-content {position:relative;z-index:2;}
+.business-card-img {z-index:1;position: absolute;top: 0;right: 0;}
+.photo-shoot {z-index:1;position: absolute;top: 80px;left: 0;}
+.photo-shoot img {max-width:380px;}
+
+.ferryswheel-bg .et_parallax_bg { background-position: right bottom; background-size: 100% auto; }
+.bonus-1:after { content: ""; position: absolute; right: 0; background: url(//unforgettableimpact.com/wp-content/uploads/2017/03/business-cards-group-e1498443594767.png) no-repeat center right; background-size: 100% auto; width: 600px; top: 0; bottom: 0; min-height: 500px; }
+.bonus-2:before { content: ""; position: absolute; left: 0; background: url(//unforgettableimpact.com/wp-content/uploads/2017/03/frames-box-shadow-1.png) no-repeat center left; background-size: auto 100%; width: 600px; top: 0; bottom: 0; min-height: 500px; }
+
+
+
+/*BARCELONA PAGE*/
+.admin-bar .barcelona { min-height: calc(100vh - 114px); }
+.barcelona { min-height: 80vh; background-size: 100% auto !important; background-color: #f2fafd; }
+.barcelona .join-date { position: absolute; bottom: 0; max-width: 50% !important; }
+.barcelona h3 { color: #33235d !important; letter-spacing: 4px; word-spacing: 10px; }
+.barcelona .magnet { padding: 0 15px !important; font-size: 140% !important; }
+
+.dragon-tower .et_parallax_bg { background-position: right bottom; background-size: 70% 100%!important; }
+.dragon-tower div:nth-child(3) p { max-width: 600px !important; }
+
+.barcelona-sky .et_parallax_bg { background-position: right bottom; background-size: auto 100% !important; background-color: #77cefb; }
+
+.banner-title h2 { font-weight: 300; font-size: 30px !important; }
+.banner-title span { padding: 0 10px; }
+
+
+.list-asterisk ul { padding-left: 0; }
+.list-asterisk ul li { margin-bottom: 20px; list-style-type: none; padding-left: 40px; }
+.list-asterisk ul li:before { background-image: url(//unforgettableimpact.com/wp-content/uploads/2017/08/b-asterisk.png); content: ""; display: block; width: 32px; background-position: 100%; background-repeat: no-repeat; background-size: contain; position: absolute; left: 0; height: 32px; }
+
+
+
+
+
+
+
+@media only screen and ( min-width: 1280) and (max-width: 1366px) {
+    .et_pb_text_0 {
+        height: 200px !important;
+        font-size: 10px;
+    }
+}
+
+@media only screen and ( min-width: 800px) {
+	.svnty-shock.show-shock-bg:after {
+	    background: url(https://unforgettableimpact.com/wp-content/uploads/2018/03/woman-svnty-shock.png) no-repeat right bottom;
+	    content: "";
+	    position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    width: 100%;
+	}
+}
+
+
+@media only screen and (max-width: 980px) {
+    .three-reasons .et_pb_column_1 { margin-top: 80px; }
+    ul#menu-scottsdale { margin-top: 20px; }
+}
+
+@media only screen and (min-width: 768px) {
+.vertical-center, .vertical-center .et_pb_code_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #eModal-1 {
+        max-width: 90%;
+        width: 100%;
+    }
+
+    #eModal-1 .one-third, #eModal-1 .two-third {
+        max-width: 49% !important;
+        padding: 35px 10px 0;
+    }
+
+    .infusion-field.clearfix {
+        width: 49%;
+    }
+
+    .infusion-submit {
+        width: 99%;
+    }
+
+    .mobile-center { background-size: cover; background-position: center top !important; }
+    .egyptgod .et_parallax_bg { background-size: cover; background-color: #eeefea; background-position: left top; }
+
+
+    .paper-effect {
+        -moz-box-shadow: initial;
+        -webkit-box-shadow: initial;
+        box-shadow: initial;
+        border: initial;
+    }
+    .paper-effect .et_pb_text {
+        -moz-box-shadow: 0 2px 4px 0 #ccc;
+        -webkit-box-shadow: 0 12px 18px 0 #ccc;
+        box-shadow: 0 10px 18px 0 #ccc;
+        border: 1px solid #fff;
+        padding: 30px !important;
+    }
+
+    .pen.position-absolute { top: -300px !important; }
+    .et_pb_column .bcard { background: #fff !important; margin: 0; width: 100% !important; }
+    .ray img.profile-image, .jane img.profile-image { max-width: 250px; }
+
+    .discover.london .et_pb_column { padding-left: 30px; padding-right: 30px; }
+    .discover.london .et_pb_row:nth-child(1) { margin-bottom: 0px !important; padding-bottom: 0px !important; }
+    .mirror-body { width: 100%; }
+
+    .bonus-1:after { width: 40%; }
+    .bonus-2:before { width: 40%; background-size: 79% auto; }
+
+    .bonus-1 .et_pb_text:nth-child(2) p:nth-child(2),
+    .bonus-1 .et_pb_text:nth-child(2) p:nth-child(3),
+    .bonus-1 .et_pb_text:nth-child(2) p:nth-child(4),
+    .bonus-1 .et_pb_text:nth-child(2) p:nth-child(5) {
+        width: 66%;
+    }
+
+    .bonus-2 .et_pb_text:nth-child(2) p:nth-child(2),
+    .bonus-2 .et_pb_text:nth-child(2) p:nth-child(3),
+    .bonus-2 .et_pb_text:nth-child(2) p:nth-child(4) {
+        width: 66%;
+        margin-left: 32%;
+    }
+
+    div.et_pb_section.et_pb_section_12.street-lamps, .street-lamps {
+        background-image: none !important;
+    }
+
+    .diamonds .et_parallax_bg { background-position: top; }
+    .ferryswheel-bg .et_parallax_bg { background-position: bottom; }
+
+    .portfolio-item:not(.content-copy) {
+        min-height: 50vh;
+        height: initial;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #paper { top: -200px; }
+
+    #ebook-download.et_pb_section_1.et_pb_section {
+        margin-bottom: 0;
+    }
+
+
+    #eModal-1 .one-third, #eModal-1 .two-third {
+        max-width: 99% !important;
+        padding: 20px 20px 0;
+    }
+
+    .two-third h1 {
+        text-align: center;
+    }
+
+    .infusion-field.clearfix {
+        width: 99%;
+    }
+
+    .infusion-submit {
+        width: 99%;
+    }
+
+    #palmtrees-bg h1 { font-size: 34px; }
+
+    .bonus-1 .et_pb_text:nth-child(2) p:nth-child(2),
+    .bonus-1 .et_pb_text:nth-child(2) p:nth-child(5) {
+        width: initial;
+    }
+
+    .bonus-2 .et_pb_text:nth-child(2) p:nth-child(2),
+    .bonus-2 .et_pb_text:nth-child(2) p:nth-child(4),
+    .bonus-2 .et_pb_text:nth-child(2) p:nth-child(5) {
+        width: 100% !important;
+        margin-left: 0;
+    }
+
+
+    .fireworks-bg .et_pb_row.et_pb_row_6 { margin-top: 150px !important; }
+    .floor .et_pb_row .et_pb_text:last-child { padding-bottom: 80px !important; }
+
+
+	.et_bloom .et_bloom_optin_4 .et_bloom_form_container {
+	    width: 98% !important;
+	}
+
+
+	.et_bloom .et_bloom_optin_4 .et_bloom_form_header img {
+		padding: 0 !important;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+.desktop-no {
+    display: none;
+}
+
+
+.fw-reasons {
+    min-height: 900px;
+    min-height: calc( 100vh - 96px );
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.snp-builder h2, .snp-builder h3 {
+    font-family: 'Lato', sans-serif;
+    text-transform: initial !important;
+    line-height: 20px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .fw-reasons {
+        background: url(https://unforgettableimpact.com/wp-content/uploads/2017/12/fw-tablet-bg.jpg);
+        background-position: bottom right;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #fff;
+    }
+
+    .fw-reasons .et_pb_row > div {
+        max-width: 50% !important;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
+    .desktop-no {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .desktop-no {
+        display: block;
+    }
+
+
+    .et_pb_section.et_pb_section_0.fw-reasons {
+        display: block;
+        background-image: url(https://unforgettableimpact.com/wp-content/uploads/2017/12/fw.jpg)!important;
+        background-size: 66% auto!important;
+        background-position: bottom right;
+    }
+
+    .kickass-logo.et_pb_image_0 {
+        margin-bottom: -45px!important;
+    }
+
+}
+
+
+
+
+
+/**  OLD CHILD THEME **/
+/* =Theme customization starts here ------------------------------------------------------- */
+ .clear{
+    clear:both;
+}
+
+p,.et_pb_testimonial_author{
+    letter-spacing:1px;
+    line-height:1.5em;
+}
+ p:last-of-type{
+    padding-bottom:1em;
+}
+ body{
+    background-color:#f8d3de;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+ .et_pb_row{
+    width:90%;
+}
+/*HEADER*/
+ .et_header_style_centered #main-header .container{
+    width:90%;
+}
+ #main-header{
+    background:url(images/header-bg.png);
+    background-repeat:repeat-x;
+    background-position:top;
+}
+ .et_header_style_centered.et_hide_primary_logo #main-header:not(.et-fixed-header) .logo_container, .et_header_style_centered.et_hide_fixed_logo #main-header.et-fixed-header .logo_container{
+    display:none;
+}
+ .et_header_style_centered #top-menu > li > a{
+    padding-bottom: 42px!important;
+    font-weight:400;
+    padding-top:33px;
+}
+ #top-menu li{
+    padding-right:32px;
+}
+ #top-menu .menu-item-has-children > a:first-child::after, #et-secondary-nav .menu-item-has-children > a:first-child::after{
+    top:33px;
+}
+ .sub-menu {
+    background-color: #be0b66 !important;
+    top: 60px;
+}
+ .sub-menu li:last-child:after{
+    background:url(images/header-bg.png);
+    background-repeat:repeat-x;
+    background-position:bottom;
+    content:'';
+    height:82px;
+    width:100%;
+}
+ .nav li ul{
+    width:290px;
+    border:none!important;
+}
+ #top-menu li li a{
+    width:250px;
+}
+/*MAIN CONTENT*/
+ #et-main-area{
+    padding-top:72px;
+}
+ .scrollsections {
+     display: block;
+     position: relative;
+     width: 100%;
+     height: 100%;
+}
+ #scrollsections-navigation {
+     position: fixed;
+     top: 50%;
+     right: 20px;
+     width: 10px;
+     margin-top: -177px;
+     z-index: 100;
+     background: transparent;
+     overflow: hidden;
+}
+ .scrollsections-menuitem {
+     position: relative;
+     display: block;
+     height: 40px;
+     width: 10px;
+     overflow: hidden;
+     background: #ffffff;
+     text-indent: -9999px;
+     margin: 0 0 5px 0;
+     cursor: pointer;
+     -webkit-transition: all 0.3s ease 0s;
+     -moz-transition: all 0.3s ease 0s;
+     -o-transition: all 0.3s ease 0s;
+     -ms-transition: all 0.3s ease 0s;
+     transition: all 0.3s ease 0s;
+}
+ .scrollsections-menuitem.active-scrollsection {
+     width: 2px;
+     margin-left: 8px;
+     cursor: default;
+}
+ .page-template-blog #et-main-area {
+    padding-top:72px;
+    /* Safari 4-5, Chrome 1-9 */
+     background: -webkit-gradient(linear, 0% 0%, 0% -20%, from(#fff), to(#f8d3de));
+    /* Safari 5.1, Chrome 10+ */
+     background: -webkit-linear-gradient(top, #fff, #f8d3de);
+    /* Firefox 3.6+ */
+     background: -moz-linear-gradient(top, #fff, #f8d3de);
+    /* IE 10 */
+     background: -ms-linear-gradient(top, #fff, #f8d3de);
+    /* Opera 11.10+ */
+     background: -o-linear-gradient(top, #fff, #f8d3de);
+}
+/*SLIDER*/
+ #main-banner .et_pb_slide_0 h2{
+    text-indent:-9999px;
+}
+ #main-banner .et_pb_slide_0 .et_pb_slide_image{
+    width:auto;
+    top:32.5%;
+    max-width:636px;
+}
+ #main-banner .et_pb_slide_0 .et_pb_slide_description{
+    float:left;
+}
+ #main-banner .et_pb_slide_0 .et_pb_slide_content{
+    margin-top:35px;
+}
+ #main-banner .et_pb_section_0.et_pb_section{
+    padding-top:150px!important;
+}
+/*EBOOK DOWNLOAD*/
+ #ebook-download #ebook-graphic{
+    position:relative;
+    top:-80px;
+}
+ #ebook-download h2{
+    font-size:1.7em;
+    line-height:1;
+    margin-bottom:20px;
+}
+ #ebook-download h3{
+    font-size:1.5em;
+}
+ .form{
+    margin-top:-100px;
+}
+ .form .textfield,.form #form-submit,.form-type2 .textfield,.form-type2 #form-submit{
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    letter-spacing:2px;
+    font-family: "Lato",Helvetica,Arial,Lucida,sans-serif;
+    width:48%;
+    display:block;
+    float:left;
+}
+ .form .textfield,.form-type2 .textfield,.form .textfield:focus,.form-type2 .textfield:focus{
+    background:none;
+    border:1px solid #fff;
+    color:#fff;
+    padding:12px 15px;
+    text-transform:uppercase;
+    font-size:14px;
+    margin-right:15px;
+}
+ .form #inf_field_Email{
+    margin-right:0!important;
+}
+ .form #form-submit{
+    cursor:pointer;
+     letter-spacing:0px;
+     padding:7px 5px;
+     margin-top:20px;
+    color:#33155d;
+    font-size:25px;
+     font-weight:bold;
+    border:none;
+    /* fallback */
+     background-color: #ee9803;
+    /* Safari 4-5, Chrome 1-9 */
+     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ecdb05), to(#ee6306));
+    /* Safari 5.1, Chrome 10+ */
+     background: -webkit-linear-gradient(top, #ecdb05, #ee6306);
+    /* Firefox 3.6+ */
+     background: -moz-linear-gradient(top, #ecdb05, #ee6306);
+    /* IE 10 */
+     background: -ms-linear-gradient(top, #ecdb05, #ee6306);
+    /* Opera 11.10+ */
+     background: -o-linear-gradient(top, #ecdb05, #ee6306);
+    width:100%;
+}
+/*MAIN CONTENT*/
+ .et_pb_section_parallax, .et_pb_slider_parallax{
+    overflow:visible!important;
+}
+/*GREY BACKGROUND TESTIMONIAL*/
+ .et_pb_testimonial_description .et_pb_testimonial_description_inner p,#cta p,#cta .et_pb_button,.testimonial-columns .et_pb_button,#contact-form .input,.texttype2 p,.texttype2 span,.texttype2 li,.texttype2 h3,.texttype2 h2,.texttype2 h4,.texttype2 h1,.form-type2 #form-submit,.et_pb_blurb h4,#calendar,#calendar span,.et_pb_countdown_timer .title,.et_pb_countdown_timer p,.button-full,#webinar-popup input,.entry-title-blog,.post-blog-area p,#sidebar .et_pb_widget h4,#sidebar .et_pb_widget h3,.rpwe-summary{
+    font-family: "Lato","Open Sans",Helvetica,Arial,Lucida,sans-serif!important;
+}
+ .et_pb_testimonial_description .et_pb_testimonial_description_inner p,#cta .et_pb_button{
+    padding-bottom:0px;
+}
+ .et_pb_testimonial_author{
+    font-style:italic;
+    font-size:.9em!important;
+}
+ .testimonial-full p{
+    font-size:14px;
+}
+ .testimonial-full .et_pb_testimonial_portrait{
+    height:102px;
+    width:102px;
+    margin-top:10px;
+}
+ .testimonial-full .et_pb_testimonial_description_inner{
+    width:99%!important;
+}
+ .et_pb_testimonial p {
+     padding: 20px 30px 10px;
+}
+/*CTA*/
+ #cta .et_pb_button {
+    width:100%;
+    padding-top:0px;
+}
+ #cta .et_pb_column_13{
+    width:40%!important;
+}
+/*TESTIMONIAL SLIDER*/
+ #testimonial-slider .et_pb_slider_fullwidth_off .et_pb_container{
+    width:70%!important;
+}
+ #testimonial-slider .et_pb_slide_image{
+    width:30%!important;
+    padding-right:40px;
+}
+ #testimonial-slider .et_pb_slides .et_pb_slide_description{
+    width:70%!important;
+}
+/*ABOUT PAGE*/
+ .scroll-box {
+    background: #fff;
+    border: 2px solid #492676;
+    height: 500px;
+    /* maximum height of the box, feel free to change this! */
+     padding: 15px;
+    overflow-y: scroll;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -webkit-border-radius:10px;
+    padding:50px 20px;
+    max-width:86%;
+}
+/*BRANDING AUDIT OPT-IN*/
+ #list-optin li{
+    margin-bottom:40px;
+    line-height:1.2em;
+}
+ .form-type2{
+    margin:0 auto;
+}
+ .form-type2 .textfield{
+    width:48.5%;
+    background-color:#fff;
+    color:#222;
+    font-size:18px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+    border-radius:0px;
+    letter-spacing:0px;
+    margin-right:15px;
+    border:none;
+}
+ .form-type2 #inf_field_Email{
+    margin-right:0;
+}
+ .form-type2 #form-submit{
+    width:100%;
+    margin-top:10px;
+    float:none;
+    color:#fff;
+    background-color:#33215d;
+    padding:10px 15px;
+    border:none;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+    border-radius:0px;
+    letter-spacing:0px;
+    font-size:20px;
+    font-weight:bold;
+}
+ .form-type2 #form-submit:hover{
+    background-color:#ec008c;
+}
+/*WEBINAR OPTIN*/
+ .et-pb-icon{
+    font-family: "ETmodules"!important;
+}
+ .et_pb_countdown_timer{
+    background-color:rgba(255,255,255,0)!important;
+}
+ .calendar-icon{
+    background-color:#fff;
+    color:#2c1652;
+    width:25%;
+    float:left;
+    text-align:center;
+    font-size:3em;
+    padding:0px 0px 10px;
+    line-height:1;
+}
+ .calendar-icon span{
+    background-color:#5a1d77;
+    color:#fff;
+    display:block;
+    font-size:18px;
+    padding:10px;
+    margin-bottom:5px;
+}
+ .date-time{
+    width:71%;
+    float:left;
+    ;
+    margin-left:15px;
+    font-size:1.4em;
+    line-height:1.3;
+}
+ .date-time span{
+    font-size:14px;
+    background-color:#4f135f;
+    padding:8px 10px;
+    display:block;
+    line-height:1;
+    margin-top:10px;
+    /* Safari 4-5, Chrome 1-9 */
+     background: -webkit-gradient(linear, left top, right top, from(#4f135f), to(#be0b66));
+    /* Safari 5.1, Chrome 10+ */
+     background: -webkit-linear-gradient(left, #4f135f, #be0b667);
+    /* Firefox 3.6+ */
+     background: -moz-linear-gradient(left, #4f135f, #be0b66);
+    /* IE 10 */
+     background: -ms-linear-gradient(left, #4f135f, #be0b66);
+    /* Opera 11.10+ */
+     background: -o-linear-gradient(left, #4f135f, #be0b66);
+}
+ .optin-leftbox h4{
+    margin-top:6px;
+}
+ .et_pb_countdown_timer .title{
+    text-transform:uppercase;
+}
+ .button-full{
+    display:block;
+    width:100%;
+}
+ .et_monarch .et_social_top .et_social_icon{
+    padding:0;
+    background-color:#fff;
+}
+ .et_monarch .et_social_top .et_social_follow:hover .et_social_icon{
+    background-color:#fff!important;
+}
+/*FOOTER*/
+ .page-template-default #main-footer{
+    display:none;
+}
+ #footer-widgets{
+    padding-top:0!important;
+}
+ #main-footer .footer-widget .fwidget{
+    text-align:center;
+    float:none;
+    margin-bottom:1%;
+}
+ .footer-widget{
+    margin-bottom:0!important;
+    padding-top:20px!important;
+}
+ #text-4 a{
+    color:#f2f2f2;
+    margin-right:10px;
+}
+ .footer-links a{
+    color:#fff!important;
+    margin-right:10px;
+}
+/*Welcome Section*/
+ .greeting-box > div {
+     -webkit-align-content: center;
+     -ms-flex-line-pack: center;
+     align-content: center;
+}
+ .greeting-box {
+    display:flex;
+    border: 1px solid #33215d;
+}
+ .greeting-box .label {
+    text-align:center;
+}
+ .greeting-box .label,.greeting-box .listing {
+     color:#fff;
+     width: 33.33%;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-flex-direction: column;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     -webkit-flex-wrap: nowrap;
+     -ms-flex-wrap: nowrap;
+     flex-wrap: nowrap;
+     -webkit-justify-content: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-align-content: center;
+     -ms-flex-line-pack: center;
+     align-content: center;
+     -webkit-align-items: center;
+     -ms-flex-align: center;
+     align-items: center;
+}
+ .greeting-box .listing {
+     padding: 0 15px;
+}
+ .greeting-box .label h1 {
+     line-height: 110px;
+     margin-bottom:0;
+     padding-bottom: 0;
+     font-size: 140px;
+     text-transform: uppercase;
+     font-family: Lato,sans-serif!important;
+    color:#fff;
+}
+ .greeting-box .label h1 span {
+     display:block;
+     font-size: 69px;
+     line-height: 69px;
+}
+ .greeting-box .headline {
+     position:relative;
+     width: 33.33%;
+     background-color:#33215d;
+}
+ .greeting-box .headline:before {
+     content:"";
+     background:url(//unforgettableimpact.com/wp-content/uploads/2017/07/arrow-edge-headline.png);
+     background-repeat: no-repeat;
+     display:block;
+     position: absolute;
+     top: 0;
+     width: 100px;
+     height: 100%;
+     background-size: contain;
+     background-position: 100%;
+     z-index: 2;
+     right: 100%;
+}
+ .greeting-box .headline h1{
+     color: #fff;
+     text-align: center;
+     font-family: Lato,sans-serif!important;
+     font-weight: 300;
+     text-transform: uppercase;
+     font-size: 1.5em;
+     margin-top: 20px;
+}
+/*INfusionsoft Form*/
+ .subscribe-report .infusion-field {
+    margin-bottom: 20px;
+}
+ .subscribe-report .infusion-field input{
+    width: 100%;
+}
+ .subscribe-report .g-recaptcha > div {
+    margin: 0 auto;
+}
+ .subscribe-report #errorDiv {
+    color:#f30;
+}
+/*POP UP*/
+ .pum-content{
+    padding-bottom:20px;
+}
+ .pum-theme-561 .pum-container, .pum-theme-lightbox .pum-container{
+    padding:0!important;
+    border:0!important;
+}
+ .popmake-content .et_social_networks,.popmake-content a.et_social_follow i.et_social_icon{
+    background-color:#ad0e5a!important;
+}
+ .popmake-content li a.et_social_follow:hover i.et_social_icon{
+    color:#ad0e5a!important;
+    background-color:#ad0e5a!important;
+}
+ .popmake-content ul.et_social_icons_container li{
+    margin-right:0px!important;
+    margin-bottom:0px!important;
+}
+ #webinar-popup{
+    padding:10px 20px;
+}
+ #webinar-popup input{
+    width:32%;
+    float:left;
+    margin-right:10px;
+}
+ #webinar-popup input[type="text"],#webinar-popup input[type="email"]{
+    border:1px solid #810941;
+    padding:5px 10px;
+}
+ #webinar-popup input[type="submit"]{
+    background-color:#33155d;
+    color:#fff;
+    border:0;
+    padding:5px 10px;
+    margin-right:0px;
+    cursor:pointer;
+}
+ #webinar-popup input[type="submit"]:hover{
+    background-color:#b20d5a;
+}
+/*WEBINAR THANK YOU PAGE*/
+ #steps{
+    padding-left:0;
+    margin-top:20px;
+}
+ #steps li{
+    list-style:none;
+    clear:both;
+    margin-bottom:20px;
+    border-bottom:1px solid #33155d;
+    padding-bottom:10px;
+}
+ #steps span{
+    color:#000000;
+    font-size:1.8em;
+    font-weight:bold;
+    border:1px solid #33155d;
+    border-left:10px solid #b70e5b;
+    display:block;
+    padding:10px 20px;
+     margin-right: 20px;
+    width: 60px;
+    float:left;
+}
+ #steps a{
+    clear:both;
+     display: inline-block;
+    width: 100%;
+    color:#000;
+}
+ #steps a strong{
+    display:inline-block;
+     float: right;
+    font-size: 1.5em;
+    text-align: right;
+    color:#b70e5b;
+}
+/*BLOG*/
+ #sidebar .et_pb_widget{
+    margin-bottom:70px;
+}
+ #sidebar .et_pb_widget h3{
+    padding-bottom:0;
+    line-height:1.2;
+}
+ #sidebar .et_pb_widget h4{
+    font-size:1.2em;
+     margin-bottom: 15px;
+}
+ #sidebar .et_pb_widget h3 a{
+    font-size:1.8em;
+}
+ .rpwe-summary{
+    line-height:1.4;
+    font-size:.8em!important;
+}
+ .widget_search #searchsubmit{
+    background-color:#be0b66;
+    color:#fff!important;
+    text-transform:uppercase;
+    font-weight:bold;
+    width:80px;
+}
+ .widget_search input#s, .widget_search input#searchsubmit{
+    border:1px solid #be0b66;
+}
+ #text-2 input[type="text"],#text-2 input[type="submit"]{
+    font-size:.8em;
+    padding:5px 10px;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    margin-bottom:10px;
+    max-width:100%;
+    width:100%;
+}
+ #text-2 input[type="submit"]{
+    background-color:#be0b66;
+    border:0;
+    color:#fff;
+    cursor:pointer;
+    width:100%;
+    font-size:1.1em;
+    text-transform:uppercase;
+}
+ .single-post .et_pb_post .entry-content{
+    height:auto!important;
+}
+/*DOWNLOAD EBOOK CHECKLIST*/
+ .diagonal-shadow.checklist {
+     background: #fff !important;
+}
+ .diagonal-shadow::before,.diagonal-shadow::after {
+     position: absolute;
+     content: '';
+     pointer-events: none;
+}
+ .diagonal-shadow {
+    z-index: 1;
+    padding-top: 6em;
+    background: #2072a7;
+}
+ .diagonal-shadow::before, .diagonal-shadow::after {
+    top: 0;
+    left: -25%;
+     z-index: -1;
+    width: 150%;
+    height: 100%;
+    background: inherit;
+     -webkit-transform: rotate(-2deg);
+     transform: rotate(-5deg);
+     -webkit-transform-origin: 0 0;
+     transform-origin: 0 0;
+}
+ .diagonal-shadow::before {
+    height: 50%;
+     background: #fff;
+     -webkit-transform: rotate(-7deg);
+     transform: rotate(-7deg);
+     -webkit-transform-origin: 3% 0;
+     transform-origin: 3% 0;
+}
+ .diagonal-shadow #ebook-download #ebook-graphic{
+    top:-175px;
+}
+ .diagonal-shadow #ebook-download #form-box{
+    top:-110px;
+}
+ #kerrianne{
+    background-position:right;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+ .vtext-box h3{
+    background-color:#bd1e68;
+    padding:10px 20px;
+    font-size:25px!important;
+}
+ .vtext-box h3 strong{
+    padding-right:15px;
+    margin-right:15px;
+    border-right:1px solid #fff;
+}
+ .vtext-box p{
+    padding:20px!important;
+    color:#2d2d2d;
+}
+ .et_pb_testimonial::before{
+    font-size:52px!important;
+    top:30px!important;
+}
+ .sales-button a{
+     background-color: #be0c66;
+    border-radius: 3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    color: #fff;
+     display: block;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+ .sales-button a:hover{
+    background-color:#ea0e7d;
+}
+ .sales-button a span{
+    font-size:13px;
+    display:inline-block;
+    text-align:center;
+}
+ .lato-font.qa h3{
+    color:#2d2d2d;
+}
+ .lato-font.qa span{
+    color:#be0c66;
+    display:inline-block;
+    border:3px solid #be0c66;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    padding:15px 20px;
+}
+ .lato-font.qa p span{
+    font-size:30px;
+    padding:10px 20px;
+    color:#33215d;
+    border-color:#33215d;
+}
+ .offset-bottom{
+    position:absolute;
+    bottom:-110px;
+    z-index:999;
+}
+ .relative{
+    position:relative;
+}
+ .absolute{
+    position:absolute;
+}
+ #umbrella-girl{
+    top:-100px;
+    right:0;
+}
+ #cartwheel-girl{
+    right:30%;
+    bottom:-2%;
+}
+ .et_pb_testimonial_author{
+    text-transform:capitalize;
+}
+ .split-button1{
+    background-color:#4e1c8b;
+    font-size:25px;
+    color:#fff!important;
+    width:100%;
+    display:block;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:10px 20px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+}
+/*CHATBOX*/
+ .purechat-widget-header,#purechat-name-submit{
+    background-color:#be0b66;
+}
+/*POPUP*/
+ .et_bloom .et_bloom_form_container{
+    max-width:860px!important;
+}
+ .et_bloom_form_text h1{
+    font-size:40px;
+    margin-top:40px;
+}
+ .et_bloom .et_bloom_form_header p{
+    font-size:18px!important;
+}
+/*RHOMBUS HEADER STYLE*/
+ .rhombus {
+     overflow-y: hidden;
+}
+ .rhombus::before {
+     content: '';
+     display: block;
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     border-style: solid;
+     border-width: 10vh 0 0 50vw;
+     border-color: transparent transparent transparent #be1e68;
+     z-index: 1;
+}
+/* Right Bottom Triangle */
+ .rhombus::after {
+     content: '';
+     display: block;
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     border-style: solid;
+     border-width: 0 0 10vh 50vw;
+     border-color: transparent transparent #be1e68 transparent;
+     z-index: 1;
+}
+/*SCOTTSDALE PAGE*/
+ .et_pb_countdown_timer .title{
+    margin-bottom:0;
+}
+ #scott-menu #nav_menu-2{
+    width:100%;
+}
+ #menu-scottsdale li {
+     display: inline-block;
+     margin-right: 30px;
+}
+ .position-relative{
+    position:relative;
+}
+ .position-absolute{
+    position:absolute;
+}
+ .position-absolute.palm-trees.et_pb_row_fullwidth{
+    z-index:1;
+    top:-50px;
+    background-size:cover;
+}
+ .position-absolute.palm-trees.et_pb_row_fullwidth .et_parallax_bg{
+    background-position:center -200px;
+}
+ .diamonds .et_parallax_bg{
+    background-size:contain;
+    background-position:center 150px;
+}
+ .kerrianne-walking {
+     top: -10%;
+     max-width: 100% !important;
+     width: 100% !important;
+}
+ .rotate-cc{
+    -ms-transform: rotate(-8deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-8deg);
+    /* Chrome, Safari, Opera */
+     transform: rotate(-8deg);
+}
+ .rotate-c{
+    -ms-transform: rotate(2deg);
+    /* IE 9 */
+    -webkit-transform: rotate(2deg);
+    /* Chrome, Safari, Opera */
+     transform: rotate(2deg);
+}
+ .paper-effect{
+    -moz-box-shadow: 0 2px 4px 0 #ccc;
+    -webkit-box-shadow: 0 12px 18px 0 #ccc;
+    box-shadow: 0 10px 18px 0 #ccc;
+     border:1px solid #fff;
+    /* Safari 4-5, Chrome 1-9 */
+}
+ .letter-style .top-fold{
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f0eceb), to(#d2d0d1));
+    /* Safari 5.1, Chrome 10+ */
+     background: -webkit-linear-gradient(top, #f0eceb, #d2d0d1);
+    /* Firefox 3.6+ */
+     background: -moz-linear-gradient(top, #f0eceb, #d2d0d1);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #f0eceb, #d2d0d1);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #efebea, #d2d0d1);
+}
+ .letter-style .bottom-fold{
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f0eceb), to(#cecccd));
+    /* Safari 5.1, Chrome 10+ */
+     background: -webkit-linear-gradient(top, #f0eceb, #cecccd);
+    /* Firefox 3.6+ */
+     background: -moz-linear-gradient(top, #f0eceb, #cecccd);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #f0eceb, #cecccd);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #efebea, #cecccd);
+    border-top:3px solid #d2d0d1;
+}
+ #paper{
+    top:-300px;
+}
+ .pen{
+    right: -120px;
+    bottom: -100px;
+}
+ .bottom{
+    z-index:1;
+}
+ .top{
+    z-index:2;
+}
+ .bcard-label{
+    background-color:#fff;
+    padding-top:30px;
+     -moz-box-shadow:5px 5px 5px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow:5px 5px 5px 2px rgba(0,0,0,.2);
+    box-shadow:5px 5px 5px 2px rgba(0,0,0,.2);
+}
+ .bcard{
+     -moz-box-shadow:5px 5px 5px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow:5px 5px 5px 2px rgba(0,0,0,.2);
+    box-shadow:5px 5px 5px 2px rgba(0,0,0,.2);
+}
+ .bcard .profile-image {
+    position:absolute;
+    right:0;
+    right:0;
+    bottom:0;
+    max-width:305px;
+}
+ .bcard-label.et_pb_text h4{
+    background-color:#bb1d68;
+    padding:20px 10px;
+    font-weight:300;
+    display:block;
+}
+ .bcard .et_pb_testimonial_description{
+    display:block;
+}
+ .bcard .et_pb_testimonial_portrait{
+    width:305px!important;
+    height:275px!important;
+    float:none;
+    position:absolute;
+    right:0;
+    bottom:0;
+    margin-right:0;
+}
+ .bcard .et_pb_testimonial_portrait:before{
+    box-shadow:none;
+}
+ .bcard .et_pb_testimonial_description_inner{
+    position:relative;
+    z-index:2;
+    padding:30px 200px 30px 30px;
+    width:auto!important;
+    max-width:100%;
+}
+ .bcard .et_pb_testimonial_author{
+    color:#0a003c;
+}
+ .bcard-right .bcard .et_pb_testimonial_description_inner{
+    padding:0;
+}
+ .bcard-right .bcard .et_pb_testimonial_description_inner p{
+    padding:20px 30px 10px;
+}
+ .bcard-right .bcard .et_pb_testimonial_author,.bcard-right .bcard .et_pb_testimonial_meta{
+    background-color:#bb1d68;
+    color:#fff;
+    padding:10px 30px 0;
+    margin-top:0;
+}
+ .bcard-right .bcard .et_pb_testimonial_meta{
+    padding-top:0!important;
+}
+ .jane .et_pb_testimonial_description_inner, .ray .et_pb_testimonial_description_inner {
+     padding-top: 0;
+}
+ .jane p.et_pb_testimonial_meta, .ray p.et_pb_testimonial_meta {
+     padding-top: 0;
+}
+ .jane p:nth-child(3) {
+     max-width: 90%;
+}
+ .text-content {
+    position:relative;
+    z-index:2;
+}
+ .business-card-img {
+    z-index:1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+ .photo-shoot {
+    z-index:1;
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+ .photo-shoot img {
+    max-width:380px;
+}
+ .ferryswheel-bg .et_parallax_bg {
+     background-position: right bottom;
+     background-size: 100% auto;
+}
+ .bonus-1:after {
+     content: "";
+     position: absolute;
+     right: 0;
+     background: url(//unforgettableimpact.com/wp-content/uploads/2017/03/business-cards-group-e1498443594767.png) no-repeat center right;
+     background-size: 100% auto;
+     width: 600px;
+     top: 0;
+     bottom: 0;
+     min-height: 500px;
+}
+ .bonus-2:before {
+     content: "";
+     position: absolute;
+     left: 0;
+     background: url(//unforgettableimpact.com/wp-content/uploads/2017/03/frames-box-shadow-1.png) no-repeat center left;
+     background-size: auto 100%;
+     width: 600px;
+     top: 0;
+     bottom: 0;
+     min-height: 500px;
+}
+/*BARCELONA PAGE*/
+ .barcelona {
+     min-height: 100vh;
+     background-size: 100% auto !important;
+     background-color: #f2fafd;
+}
+ .barcelona .join-date {
+     position: absolute;
+     bottom: 0;
+     max-width: 50% !important;
+}
+ .barcelona h3 {
+     color: #33235d !important;
+     letter-spacing: 4px;
+     word-spacing: 10px;
+}
+ .barcelona .magnet {
+     padding: 0 15px !important;
+     font-size: 140% !important;
+}
+ .dragon-tower .et_parallax_bg {
+     background-position: right bottom;
+     background-size: auto 70% !important;
+}
+ .dragon-tower div:nth-child(3) p {
+     max-width: 600px !important;
+}
+ .barcelona-sky .et_parallax_bg {
+     background-position: right bottom;
+     background-size: auto 100% !important;
+     background-color: #77cefb;
+}
+ .banner-title h2 {
+     font-weight: 300;
+     font-size: 30px !important;
+}
+ .banner-title span {
+     padding: 0 10px;
+}
+ .list-asterisk ul {
+     padding-left: 0;
+}
+ .list-asterisk ul li {
+     margin-bottom: 20px;
+     list-style-type: none;
+     padding-left: 40px;
+}
+ .list-asterisk ul li:before {
+     background-image: url(//unforgettableimpact.com/wp-content/uploads/2017/08/b-asterisk.png);
+     content: "";
+     display: block;
+     width: 32px;
+     background-position: 100%;
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: absolute;
+     left: 0;
+     height: 32px;
+}
+/*3 REASONS REPORT*/
+ .report-testimonial{
+    padding-right:0;
+}
+ .report-testimonial.et_pb_testimonial::before{
+    top:0!important;
+    background-color:rgba(0,0,0,0);
+    content:"\7b";
+}
+ .report-testimonial {
+    padding-top:0px !important
+}
+ .report-testimonial .et_pb_testimonial_description_inner .et_pb_testimonial_author,.report-testimonial .et_pb_testimonial_description_inner .et_pb_testimonial_meta{
+    text-align:right;
+    color:#0a0a0a!important;
+}
+ .report-testimonial:before {
+     position: absolute;
+     left: 0;
+}
+ .et_bloom_optin_3 .et_bloom_form_text h1{
+    color:#fff;
+    font-size:35px;
+    margin-top:50px;
+}
+ .et_bloom_optin_3 .et_bloom_form_text h1 strong,.et_bloom_optin_3 .et_bloom_form_text p strong{
+    font-weight:bold!important;
+}
+ .et_bloom_optin_3 .et_bloom_form_text span{
+    margin-bottom:10px!important;
+    display:inline-block!important;
+    line-height:1.2;
+}
+ .et_bloom_optin_3 .et_bloom_form_container .et_bloom_form_content .et_bloom_popup_input input{
+    border:1px solid #cdcdcd!important;
+    color:#414141!important;
+}
+ .custom-button a{
+    background-color:#be0c66;
+    padding:16px;
+    font-size:25px;
+    color:#fff;
+    margin-top:20px;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    display:block;
+    text-align:center;
+     -moz-box-shadow: 0px 3px 8px 5px rgba(0,0,0,.3);
+     -webkit-box-shadow:0px 3px 8px 5px rgba(0,0,0,.3);
+     box-shadow:0px 3px 8px 5px rgba(0,0,0,.3);
+    cursor:pointer;
+}
+ .custom-button a:hover{
+    background-color:#33155d;
+}
+ .title-head-row {
+    padding-right:15px;
+    padding-left:15px;
+}
+/*----Unordered List Styled---*/
+ .list-styled ul {
+     list-style:none;
+     padding: 0 0 23px 2.5em;
+}
+ .list-styled ul li {
+    margin-bottom:20px;
+}
+ .list-styled ul li:before {
+     content: "";
+     display:block;
+     width: 32px;
+     height: 32px;
+     background-position: 100%;
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: absolute;
+     left:0;
+}
+ .list-styled.list-1 ul li:before {
+    background-image:url('//unforgettableimpact.com/wp-content/uploads/2017/06/diamond-list.png');
+}
+ .list-styled.list-2 ul li:before {
+    background-image:url('//unforgettableimpact.com/wp-content/uploads/2017/06/red-lipstick-list.png');
+}
+/*-----Floating Image Alignment----*/
+ .absolute-item-obj {
+    position:absolute;
+}
+ .right-120 {
+    right:-120px !important;
+}
+ .right-160 {
+    right:-160px !important;
+}
+ .right-200 {
+    right:-200px !important;
+}
+ .right0 {
+    right:0 !important;
+}
+ .left0 {
+    left:0 !important;
+}
+ .left-120 {
+    left:-120px !important;
+}
+ .left-160 {
+    left:-160px !important;
+}
+ .bottom0 {
+    bottom:0 !important;
+}
+ .top0 {
+    top:0 !important;
+}
+ .top100 {
+    top:100px !important;
+}
+ .top-120 {
+    top:-120px !important;
+}
+ .top-160 {
+    top:-160px !important;
+}
+ .top-300 {
+    top:-300px !important;
+}
+ .top-100 {
+    top:-100px !important;
+}
+/*-----Alignment--*/
+ .txt-pl20 {
+    padding-left:20px;
+}
+ .txt-pl30 {
+    padding-left:30px;
+}
+ .box-shadow {
+    box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.2);
+}
+ .fx-bg-size-right {
+     background-size: 500px;
+     background-position: 100% 40%;
+}
+ .fx-bg-size-left {
+     background-size: 350px;
+     background-position: 0% 60%;
+}
+ .column-align-right .et_pb_text_49{
+     float:right;
+}
+ .content-align-right .title-text {
+    float:left;
+}
+ .content-align-right .button-action {
+    float:right;
+    margin: 15px 0 !important;
+    box-shadow:1px 2px 3px 1px rgba(0,0,0,0.5);
+}
+ .content-align-left .title-text {
+    float:right;
+}
+ .content-align-left .button-action {
+    float:left;
+    margin: 15px 0 !important;
+    box-shadow:1px 2px 3px 1px rgba(0,0,0,0.5);
+}
+ .content-align-right .title-text h2, .content-align-left .title-text h2{
+    padding-bottom:0;
+}
+ .content-align-left .content-text {
+    clear:both;
+}
+ .content-align-right .content-text {
+    clear:both;
+}
+ .my-application-btn {
+    border:0;
+    background-image: url(//unforgettableimpact.com/wp-content/uploads/2017/06/take-my-application-button.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ .custom-dark-text h3,.custom-dark-text h2,.custom-dark-text h1{
+    color:#333;
+}
+ .custom-dark-text h2 span{
+    color:#be0b66;
+    font-size: 1.4em;
+}
+ .custom-dark-text h1 span{
+    color:#be0b66;
+    font-size: 1.7em;
+}
+/*FAQS*/
+ .q-item,.a-item {
+    padding-left:60px;
+    position:relative;
+    display:block;
+}
+ .q-item:before {
+    content:"";
+    background-image: url(//unforgettableimpact.com/wp-content/uploads/2017/08/faq_question.png);
+    width:50px;
+    height:57px;
+    display:block;
+    position:absolute;
+    left:-10px;
+     background-size: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+    top:-15px;
+}
+ .a-item:before {
+    content:"";
+    background-image: url(//unforgettableimpact.com/wp-content/uploads/2017/08/faq_answer.png);
+    width:50px;
+    height:57px;
+    display:block;
+    position:absolute;
+    left:-10px;
+     background-size: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+ .a-item {
+     padding-bottom: 60px;
+}
+ .fix-heading .et_pb_text_inner h4 {
+    padding-bottom: 30px;
+}
+ .fix-heading .et_pb_text_inner h4 span{
+    font-size:45px;
+}
+ .kickas-title-bonuses h4{
+    font-size:45px;
+}
+ .fx-background-position {
+    background-position: 14% 100% !important;
+}
+ .overflow-hidden-block {
+    overflow:hidden;
+}
+ .lessen-pad-on-first-section {
+    padding-top:30px !important;
+}
+/*-----------RESPONSIVE---------------*/
+ @media screen and (min-width: 1445px) {
+     .fx-bg-size-right {
+         background-size: 590px;
+    }
+     .fx-bg-size-left {
+         background-size: 500px;
+         background-position: 0% -4%;
+    }
+}
+ @media screen and (max-width: 980px) {
+     .et_pb_section {
+        padding: 20px 0;
+    }
+     .content-align-right .title-text {
+        float:none;
+    }
+     .content-align-right .button-action {
+        float:none;
+    }
+     .content-align-left .title-text {
+        float:none;
+    }
+     .content-align-left .button-action {
+        float:none;
+    }
+     .fix-heading .et_pb_text_inner h4 {
+        padding-bottom: 0px;
+    }
+     .fx-background-position {
+        background-position: 100%;
+    }
+     .fx-background-position .et_pb_row{
+        max-width:600px !important;
+    }
+     .fx-bg-size-right {
+        background-size: 350px;
+        background-position: 100% 20%;
+    }
+     .fx-bg-size-left {
+        background-size: 320px;
+    }
+     .bcard-right .bcard .et_pb_testimonial_description_inner {
+        max-width:100%;
+    }
+     .business-card-img img {
+        max-width:370px;
+    }
+     .photo-shoot img {
+        max-width:330px;
+    }
+     .kerrianne-info .first.et_pb_text {
+         width: calc(100% - 115px);
+    }
+     .kerrianne-info .second.et_pb_text {
+         text-align: left;
+    }
+     .kerrianne-walking img {
+         float: right;
+         max-width: 175px;
+    }
+}
+ @media screen and (max-width: 960px) {
+     .fix-heading .et_pb_text_inner h4 span{
+        font-size:35px;
+    }
+     .fx-background-position {
+        background-position: 34% 100%;
+    }
+}
+ 
