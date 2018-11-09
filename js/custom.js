@@ -209,7 +209,31 @@ jQuery(document).ready(function($) {
 	} //end if .wn-slider
 	
 	
-	//for custom slider testimonial
+	
+
+
+
+
+}); // end active campaign script //
+
+
+
+ 
+
+
+(function($) {
+/* Open when someone clicks on the span element */
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+
+$(window).load(function() {
+    //for custom slider testimonial
     //will work only once in a page
     function slidingDiv(tel, bel) {
         var thumbs = $(tel),
@@ -270,15 +294,30 @@ jQuery(document).ready(function($) {
 
 
     slidingDiv('.rotating-control .et_pb_image', '.rotating-testimonial .testimonial');
-    //slidingDiv('.portfolio-control .et_pb_image', '.portfolio-slides .et_pb_module');
+    slidingDiv('.portfolio-control .et_pb_image', '.portfolio-slides .et_pb_module');
+
+    
+
+    setTimeout(function() {
+        //$('.portfolio-slides .et_pb_module').not(':first').addClass("hidden");
+        $('.portfolio-slides .et_pb_module').addClass("hidden");
+        // $('.portfolio-slides .et_pb_module').each(function(index) {
+
+        // });
+
+        $('.portfolio-slides .et_pb_module:first-child').addClass('active');
+
+
+    }, 1500);
+
 
 
     //making sure that the other slider is working
-    var bacontainer = $('.twentytwenty-container'),
-        baheight = bacontainer.eq(0).height(),
-        baminheight = '512px';
+    // var bacontainer = $('.twentytwenty-container'),
+    //     baheight = bacontainer.eq(0).height(),
+    //     baminheight = '512px';
 
-    if(baheight == 0) baheight = baminheight;
+    // if(baheight == 0) baheight = baminheight;
 
     // $(".portfolio-control .et_pb_image").on('click mouseenter', function() {
     //     bacontainer.eq($(this).index()).css("height", baheight);
@@ -290,26 +329,10 @@ jQuery(document).ready(function($) {
 
 
     // });
-
-
-
-
 });
 
-// end active campaign script //
- 
 
 
-(function($) {
-/* Open when someone clicks on the span element */
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-}
-
-/* Close when someone clicks on the "x" symbol inside the overlay */
-function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-}
 })( jQuery );
 
 
